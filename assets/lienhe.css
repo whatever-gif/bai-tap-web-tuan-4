@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*head*/
+.navigation{
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin: 20px;
+}
+.nav-item>a{
+    
+    color: #000;
+}
+.head-img{
+    width: 95%;
+    margin: 0 5%;
+}
+.head-img>img{
+    width: 97%;
+}
+/*contetn*/
+
+.content{
+    background-image: url(/assets/images/lef-background.jpg);
+    width: 93%;
+    height: 70vh;
+    background-size: 100%;
+    margin-top: 50px;
+    position: relative;
+    margin: 0 3.5%;
+    display: flex;
+}
+.img-left{
+    width: 50%;
+    margin-left: 10%;
+}
+.contact{
+    width: 30%;
+    position: absolute;
+    right: 17%;
+    bottom: 20%;
+}
+.contact>h2{
+    font-weight: 100;
+    margin: 20px 0;
+}
+.contact>input{
+    width: 100%;
+    padding: 15px;
+    border: #649a06 solid 2px;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-size: 15px;
+}
+.contact>button{
+    padding: 10px 35px;
+    font-size: 18px;
+    background-color: #839c08;
+    color: #fff;
+    border: none;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+
+/*fotter*/
+.footer{
+    margin: 30px 5%;
+    background-image: url(/assets/images/foot-img.jpg);
+    background-size: 99%;
+    width: 93%;
+    height: 20vh;
+    background-repeat: no-repeat;
+}
+.foot{
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between;
+}
+.ft{
+    width: 16%;
+    margin-top: 6%;
+}
+.ft1{
+    margin-left: 2%;
+   
+}
+.ft2{
+   margin-right: 0%;
+}
+.ft3{
+    margin-top: 9%;
+   margin-right: 24%;
+}
+.ft>h3{
+    font-weight: 100;
+    margin-top: 20px;
+}
+.ft>p{
+    opacity: 0.9;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.ft3>i{
+    margin: 10px 0;
+    opacity: 0.9;
+}
